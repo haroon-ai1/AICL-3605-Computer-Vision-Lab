@@ -1,83 +1,49 @@
-To make your GitHub repository look professional, you can copy and paste the content below directly into your `README.md` file. I have formatted it specifically to match the work you did in your notebook, including your name and registration number.
-
----
-
-```markdown
 # Lab 03: Scene Enhancement using Point Processing Techniques
 
-**Course:** AICL 3605 - Computer Vision Lab  
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+
+**Course:** AICL 3602 - Computer Vision Lab  
 **Student Name:** Muhammad Haroon  
 **Registration Number:** 23108124  
 **Topic:** Contrast Enhancement (SPTAIS)
 
+---
+
 ## 📌 Project Overview
-This repository contains the implementation of **Point Processing Techniques** to improve image quality and visual clarity. These techniques are essential for enhancing images captured in challenging environments such as low light, underwater, or foggy conditions.
+This repository contains the implementation of **Point Processing Techniques** to improve image quality and visual clarity. These methods are fundamental in Computer Vision for preprocessing images captured in challenging environments.
 
-The project demonstrates how manipulating individual pixel values (Point Processing) can significantly improve the dynamic range and contrast of a scene.
-
----
-
-## 🛠 Implemented Techniques
-
-### 1. Linear Contrast Stretching
-Used to expand the range of intensity levels in a low-contrast image so that it spans the full 8-bit spectrum (0 to 255).
-
-### 2. Histogram Equalization
-A method that improves contrast by spreading out the most frequent intensity values, effectively "flattening" the histogram.
-
-### 3. Power-Law (Gamma) Correction
-A non-linear transformation used to brighten or darken images. 
-- **$\gamma < 1$**: Brightens the image.
-- **$\gamma > 1$**: Darkens the image.
+### 🛠 Key Techniques Implemented
+1.  **Linear Contrast Stretching**: Normalizing intensity to the full 0-255 range.
+2.  **Histogram Equalization**: Distributing pixel intensities to enhance global contrast.
+3.  **Power-Law (Gamma) Correction**: Adjusting brightness non-linearly using $\gamma$ values.
 
 ---
 
-## 🧪 Case Studies
-The following real-world scenarios were addressed using the implemented techniques:
+## 🧪 Real-World Case Studies
+I applied these techniques to solve five specific industry scenarios:
 
-| Case Study | Scenario | Solution Applied |
+| Case Study | Scenario | Core Technique |
 | :--- | :--- | :--- |
-| **Case 1** | **Marine Biology** | Enhanced underwater imagery using **Histogram Equalization**. |
-| **Case 2** | **Satellite Imaging** | Improved topographical details using **Gamma Correction**. |
-| **Case 3** | **Surveillance** | Brightened low-light security frames using **Equalization**. |
-| **Case 4** | **OCR Preparation** | Enhanced scanned documents using **CLAHE** (Adaptive Equalization). |
-| **Case 5** | **Driver Assistance** | Improved visibility in foggy road scenes using **Contrast Stretching**. |
+| **01** | **Marine Biology** | Histogram Equalization for underwater clarity. |
+| **02** | **Satellite Imaging** | Gamma Correction for terrain details. |
+| **03** | **Surveillance** | Equalization for low-light security frames. |
+| **04** | **OCR Preparation** | CLAHE (Adaptive Equalization) for text scans. |
+| **05** | **Driver Assistance** | Contrast Stretching + Gamma for foggy roads. |
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Run
+1. Open the notebook in **Google Colab**.
+2. Run the initialization cells to load libraries.
+3. Upload your sample image when prompted by `files.upload()`.
+4. View the results and histogram plots generated automatically.
 
-### Prerequisites
-Ensure you have the following Python libraries installed:
-```bash
-pip install opencv-python-headless numpy matplotlib
+## 📊 Sample Results Visualization
 
-```
 
-### Running the Notebook
-
-1. Upload `LAB_03_Scene_enhancement.ipynb` to [Google Colab](https://colab.research.google.com/).
-2. Run the cells sequentially.
-3. When prompted, upload your sample images to see the enhancement in real-time.
+The project includes histogram visualizations to prove the mathematical shift in pixel distribution from a narrow range to a balanced spectrum.
 
 ---
-
-## 📊 Results Visualization
-
-The notebook provides side-by-side comparisons of the original and enhanced images, along with their corresponding histograms to verify the mathematical improvement in contrast distribution.
-
----
-
-## 📂 Repository Structure
-
-* `LAB_03_Scene_enhancement.ipynb`: The main notebook containing all Python code and case studies.
-* `README.md`: Project documentation.
-
-```
-
----
-
-
-**Would you like me to help you write a "Conclusion" or "Analysis" section for your lab report based on these results?**
-
-```
+*Developed as part of the Robotics & Artificial Intelligence department curriculum at SZABIST.*
