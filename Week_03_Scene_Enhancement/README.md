@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Project Overview
+## 📌 TASK Overview
 This repository contains the implementation of **Point Processing Techniques** to improve image quality and visual clarity. These methods are fundamental in Computer Vision for preprocessing images captured in challenging environments.
 
 ### 🛠 Key Techniques Implemented
