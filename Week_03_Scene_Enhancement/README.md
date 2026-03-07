@@ -46,4 +46,4 @@ I applied these techniques to solve five specific industry scenarios:
 The project includes histogram visualizations to prove the mathematical shift in pixel distribution from a narrow range to a balanced spectrum.
 
 ---
-*Developed as part of the Robotics & Artificial Intelligence department curriculum at SZABIST.*
+*Developed as part of the Robotics & Artificial Intelligence department curriculum at SZABIST ISLAMABAD.*
