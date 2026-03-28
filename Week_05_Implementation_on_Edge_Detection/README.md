@@ -40,4 +40,4 @@ Below are some highlights of the edge detection algorithms applied during the la
 
 ### 2. Autonomous Vehicle Lane Detection (Case Study)
 *Gaussian Blur applied prior to Canny Edge Detection to effectively isolate lane boundaries.*
-![Lane Detection](Screenshots/Screenshot%202026-03-28%20210538.jpg)
+![Lane Detection](Screenshots/Lane_Detection.png)
