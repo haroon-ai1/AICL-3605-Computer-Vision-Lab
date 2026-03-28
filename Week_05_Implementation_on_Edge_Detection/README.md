@@ -36,8 +36,8 @@ Below are some highlights of the edge detection algorithms applied during the la
 
 ### 1. Canny Edge Detection (Standard)
 *Extracting clean, noise-reduced edges using the Canny algorithm.*
-![Canny Edge Detection](Screenshot%202026-03-28%20210507.jpg)
+![Canny Edge Detection](Week_05_Implementation_on_Edge_Detection/Screenshots/Canny_Edge_Detection.png)
 
 ### 2. Autonomous Vehicle Lane Detection (Case Study)
 *Gaussian Blur applied prior to Canny Edge Detection to effectively isolate lane boundaries.*
-![Lane Detection](Screenshot%202026-03-28%20210538.jpg)
+![Lane Detection](Week_05_Implementation_on_Edge_Detection/Screenshots/Lane_Detection.png)
